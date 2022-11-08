@@ -1,0 +1,42 @@
+
+
+*{
+    box-sizing:border-box;
+
+}
+body {
+    background-image: url("./sajeed.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    background-color: chocolate;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family:"sans-serif";
+    margin: 0;
+    
+
+}
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -10rem;
+
+}
+.countdown-container {
+    display: flex;
+}
+.big-text {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.coutdown-e1 {
+    text-align: center;
+}
+.countdown-e2 span{
+    font-size: 1.5rem;
+}
